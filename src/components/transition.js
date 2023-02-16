@@ -3,8 +3,7 @@ import {
   TransitionGroup,
   Transition as ReactTransition,
 } from "react-transition-group"
-
-const timeout = 250
+const timeout = 500
 const getTransitionStyles = {
   entering: {
     position: `absolute`,
@@ -19,11 +18,9 @@ const getTransitionStyles = {
     opacity: 0,
   },
 }
-
 class Transition extends React.PureComponent {
   render() {
     const { children, location } = this.props
-
     return (
       <TransitionGroup>
         <ReactTransition
@@ -47,5 +44,4 @@ class Transition extends React.PureComponent {
     )
   }
 }
-
 export default Transition

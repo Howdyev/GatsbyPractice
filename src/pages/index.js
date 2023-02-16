@@ -1,15 +1,13 @@
+import React from "react"
+import { Link } from "gatsby"
 
-import * as React from "react"
-import Layout from "../components/Layout"
-  
-const IndexPage = () => {
-  return (
-    <main >
-      <Layout>
-        <h3>GeeksforGeeks - This is page content</h3>
-      </Layout>
-    </main>
-  )
-}
-  
+const IndexPage = () => (
+  <div>
+     <h1>Hi people</h1>
+    <p>Welcome to your new Gatsby site.</p>
+    <p>Now go build something great.</p>
+
+    <Link to="/dog/">Go to my dog</Link> <br />
+  </div>
+)
 export default IndexPage
