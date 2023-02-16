@@ -15,6 +15,13 @@ module.exports = {
     siteUrl: `https://howdyev.github.io/`,
   },
   plugins: [
+    `gatsby-plugin-page-transitions`,
+    {
+      resolve: 'gatsby-plugin-page-transitions',
+      options: {
+        transitionTime: 500
+      }
+    },
     {
       resolve: `gatsby-plugin-layout`,
       options: {
