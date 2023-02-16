@@ -23,6 +23,7 @@ const Layout = ({ children, location }) => (
             paddingTop: 0,
           }}
         >
+        <h1>Is this fixed?</h1>
         <Transition location = {location}>
           {children}
         </Transition>
