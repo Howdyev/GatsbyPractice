@@ -1,4 +1,5 @@
 // swipe.js
+//https://networksynapse.net/development/gatsby-page-transitions/
 import gsap from 'gsap'
 
 const boxShadow = '0 0 100px 10px rgba(0, 0, 0, 0.12941176470588237)'
