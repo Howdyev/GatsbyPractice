@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 // We need again our GlobalContext
 import { GlobalContext } from "../components/GlobalContext"
 
-const SecondPage = () => {
+const ThirdPage = () => {
   //And we have to use the Global Context the exact same way.
   const { openMenu } = React.useContext(GlobalContext)
   return (
@@ -16,4 +16,4 @@ const SecondPage = () => {
   )
 }
 
-export default SecondPage
+export default ThirdPage

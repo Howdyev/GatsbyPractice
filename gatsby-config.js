@@ -15,6 +15,7 @@ module.exports = {
     siteUrl: `https://howdyev.github.io/`,
   },
   plugins: [
+    'gatsby-plugin-transition-link',
     {
       resolve: 'gatsby-plugin-alias-imports',
       options: {
@@ -91,7 +92,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-image`,
-
+    `gsap`,
     `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-transformer-remark`,
